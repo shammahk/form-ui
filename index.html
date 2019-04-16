@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>shazzyco</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/states/sign-up.css">
+</head>
+<body>
+    <section class="cont">
+        <!-- nav bar/header starts here -->
+        <nav>
+            <li id="signup" class="selected">SignUp</li>
+            <li id="login">Login</li>
+        </nav>
+        <!-- header ends here -->
+
+        <form action="#">
+
+            <h5>Personal Info</h5>
+            <input type="text" name="fname" id="" placeholder="First Name" required>
+            <input type="text" name="lname" id="" placeholder="Last Name" required>
+            
+            <h5>Contact</h5>
+            <input type="email" name="email" id="email" placeholder="Email@example.com" required>
+
+            <select name="country" id="country">
+                <option value="" selected disabled>Select Country</option>
+                <option value="nig">Nigeria</option>
+                <option value="eng">England</option>
+                <option value="gha">Ghana</option>
+                <option value="ame">America</option>
+            </select>
+
+            <div class="input-box">
+                <div class="prefix"><p>+234</p></div>
+                <input type="tel" name="phone" id="" placeholder="Mobile Number" maxlength="15" required>
+            </div>
+
+            <h5>Profile</h5>
+            <input type="text" name="uname" id="uname" placeholder="Username" required>
+
+            <input type="password" name="pword" id="pword" placeholder="Password" pattern="[A-Za-z][0-9][*] 8" required 
+                title="Should contain an UPPERCASE LETTER, a number and at least 8 characters long" minlength="8">
+            <input type="password" id="pword_confirm" placeholder="Confirm Password">
+                
+            <div class="btns">
+                <button type="submit">Sign Up</button>
+                <button type="reset">Clear All</button>
+            </div>
+        </form>
+        <!-- form ends here -->
+
+
+    </section>
+</body>
+<script src="main.js"></script>
+</html>
