@@ -5,82 +5,10 @@ body {
     background: url(../../img/identity_illustrations_guideline_4x.png) ;
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-color: antiquewhite; */
-}
-
-section.cont {
-    color: rgba(248, 259, 253, 1);
-    width: 30%;
-    min-width: 300px;
-    height: 85vh;
-    min-height: 85vh;
-    margin: 50px auto 50px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-    box-sizing: border-box;
-    /* border: solid 1px rgba(245, 245, 245, 0.1); */
-    background: rgba(0, 0, 0, 0.5);
-}
-
-nav {
     display: flex;
-    list-style-type: none;
-    max-width: 400px;
-    height: 50px;
-    margin: 0;
-    color: rgba(0, 179, 242, 1);
     align-items: center;
-}
-
-nav>li {
-    display: inline-block;
-    width: 50%;
-    border-bottom: solid 1px rgba(245, 245, 245, 0.1);
-    text-align: center;
-    line-height: 50px;
-    height: 100%;
-    box-sizing: border-box;
-}
-
-nav>li:hover {
-    background: rgba(254, 188, 82, .5);
-    color: rgba(248, 259, 253, 1)
-}
-
-nav>li.selected {
-    border-bottom:  solid 3px rgba(37, 187, 63, 1)
-}
-
-form {
-    padding: 10px;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    flex-flow: column;
-}
-
-h5 {
-    text-align: center;
-    color: rgba(157, 215, 160, 1);
-    margin: 20px 0 10px;
-}
-
-input, select {
-    width: 90%;
-    margin: 5px auto;
-    outline: none;
-    height: 25px;
-    line-height: 25px;
-    border: none;
-    border-radius: 5px;
-    box-sizing: border-box;
-    padding-left: 10px;
-    transition: 0.3s ease-in-out;
-    flex: 0 0 25px;
-}
-
-input:focus, div.input-box {
-    border: solid 1px rgba(0, 179, 242, 1);
-    border-radius: 5px;
+    height: 100vh;
+    /* background-color: antiquewhite; */
 }
 
 div.input-box {
@@ -106,34 +34,4 @@ div.input-box>input {
     width: 90%;
     min-width: 200px;
     margin-left: 15px;
-}
-
-div.btns {
-    margin: 40px auto 0;
-    width: 90%;
-    min-width: 200px;
-    text-align: center;
-}
-
-div.btns>button {
-    width: 40%;
-    height: 30px;
-    border-radius: 20px;
-    border: none;
-    transition: 0.2s ease-in-out;
-    margin-right: 10px;
-}
-
-div.btns>button[type=submit] {
-    background: rgba(0, 179, 242, 1);
-    color: whitesmoke;
-}
-
-div.btns>button[type=submit]:hover {
-    background: rgba(160, 225, 180, 1);
-    color: black;
-}
-
-div.btns>button[type=reset]:hover {
-    background: rgba(250, 129, 99, 1);
 }

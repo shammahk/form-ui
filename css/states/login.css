@@ -1,0 +1,37 @@
+#loginForm {
+    display: none;
+    align-items: center;
+    height: 40%;
+    padding: 20px 0 10px;
+}
+
+#loginForm > input {
+    margin:20px 0 5px;
+    height: 40px;
+}
+
+#loginForm button {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    margin: 0 10px 10px;
+    transition: 0.2s ease-in-out;
+    margin-right: 10px;
+}
+
+#loginForm button[type=submit] {
+    background: rgba(0, 179, 242, 1);
+    color: whitesmoke;
+}
+
+#loginForm button[type=submit]:hover {
+    background: rgba(160, 225, 180, 1);
+    color: black;
+}
+
+#loginForm a {
+    color:  rgba(254, 188, 82, 1);
+    text-decoration: none;
+    margin: 30px 0;
+}

@@ -6,6 +6,9 @@
     <title>shazzyco</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/states/sign-up.css">
+    <link rel="stylesheet" href="./css/components.css">
+    <link rel="stylesheet" href="./css/states/login.css">
+    <script src="js/jquery-3.4.0.js"></script>
 </head>
 <body>
     <section class="cont">
@@ -16,7 +19,7 @@
         </nav>
         <!-- header ends here -->
 
-        <form action="#">
+        <form action="#" id="signupForm">
 
             <h5>Personal Info</h5>
             <input type="text" name="fname" id="" placeholder="First Name" required>
@@ -50,10 +53,22 @@
                 <button type="reset">Clear All</button>
             </div>
         </form>
-        <!-- form ends here -->
+
+        <!-- signup form ends here -->
+
+        <form action="#" id="loginForm">
+            <input type="text" name="uname" id="uname" placeholder="Username or Email">
+            <input type="password" name="pword" id="pword" placeholder="Password">
+            <br>
+            <div class="forgot">
+                <button type="submit">Login</button>
+                <a href="http://">Forgot password?</a>
+            </div>
+        </form>
+        <!-- login form ends here -->
 
 
     </section>
 </body>
-<script src="main.js"></script>
+<script src="js/index.js"></script>
 </html>
