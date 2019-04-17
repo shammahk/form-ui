@@ -32,4 +32,17 @@ function logInTab() {
     }
 }
 
-console.log(signUp.className);
+let country = document.getElementById('country');
+// country.addEventListener('onchange', prefix);
+
+let zipCode = document.getElementById('zipcode');
+
+// function prefix() {
+//     // if (country.value == ) {
+        
+//     // } else {
+        
+//     }
+// }
+
+console.log(country.value);

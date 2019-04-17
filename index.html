@@ -22,8 +22,8 @@
         <form action="#" id="signupForm">
 
             <h5>Personal Info</h5>
-            <input type="text" name="fname" id="" placeholder="First Name" required>
-            <input type="text" name="lname" id="" placeholder="Last Name" required>
+            <input type="text" name="fname" id="fname" placeholder="First Name" required>
+            <input type="text" name="lname" id="lname" placeholder="Last Name" required>
             
             <h5>Contact</h5>
             <input type="email" name="email" id="email" placeholder="Email@example.com" required>
@@ -37,7 +37,7 @@
             </select>
 
             <div class="input-box">
-                <div class="prefix"><p>+234</p></div>
+                <div class="prefix"><p id="zipcode">+234</p></div>
                 <input type="tel" name="phone" id="" placeholder="Mobile Number" maxlength="15" required>
             </div>
 
@@ -57,8 +57,8 @@
         <!-- signup form ends here -->
 
         <form action="#" id="loginForm">
-            <input type="text" name="uname" id="uname" placeholder="Username or Email">
-            <input type="password" name="pword" id="pword" placeholder="Password">
+            <input type="text" name="uname" id="logname" placeholder="Username or Email">
+            <input type="password" name="pword" id="logPword" placeholder="Password">
             <br>
             <div class="forgot">
                 <button type="submit">Login</button>
