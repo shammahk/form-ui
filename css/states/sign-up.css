@@ -35,4 +35,5 @@ div.input-box>input {
     min-width: 250px;
     margin-left: 15px;
     height: 100%;
+    clip-path: polygon(triangle)
 }

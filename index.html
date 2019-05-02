@@ -38,13 +38,13 @@
 
             <div class="input-box">
                 <div class="prefix"><p id="zipcode">+234</p></div>
-                <input type="tel" name="phone" id="" placeholder="Mobile Number" maxlength="15" required>
+                <input type="tel" name="phone" id="phone" placeholder="Mobile Number" required>
             </div>
 
             <h5>Profile</h5>
             <input type="text" name="uname" id="uname" placeholder="Username" required>
 
-            <input type="password" name="pword" id="pword" placeholder="Password" pattern="[A-Za-z][0-9][*] 8" required 
+            <input type="password" name="pword" id="pword" placeholder="Password" pattern="[A-Za-z][0-9]{8}" required 
                 title="Should contain an UPPERCASE LETTER, a number and at least 8 characters long" minlength="8">
             <input type="password" id="pword_confirm" placeholder="Confirm Password">
                 
@@ -57,6 +57,7 @@
         <!-- signup form ends here -->
 
         <form action="#" id="loginForm">
+            <h5>ENTER CREDENTIALS</h5>
             <input type="text" name="uname" id="logname" placeholder="Username or Email">
             <input type="password" name="pword" id="logPword" placeholder="Password">
             <br>
